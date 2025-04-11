@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader, CSVLoader
-# UnstructuredHTMLLoader
 from pinecone import Pinecone, ServerlessSpec
 import os
 import time
